@@ -1,0 +1,8 @@
+{
+  "name": "afp-behind-test",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Tiny public test fixture for AFP series runs (PR_BEHIND / up-to-date branch rule).",
+  "engines": { "node": ">=20" },
+  "scripts": { "test": "node --test --test-reporter=spec \"test/**/*.test.js\"" }
+}
